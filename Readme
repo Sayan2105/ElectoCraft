@@ -1,0 +1,46 @@
+                                
+                                Election Management System
+This Election Management System is a C++ program designed for managing electoral processes, including candidate registration, voting, and result display. It consists of three main files:
+
+file1.cpp: Responsible for registering candidates participating in the election.
+file2.cpp: Handles the election process, including voting and result calculation.
+data.txt: Text file storing data about registered candidates.
+Features
+Candidate Registration: Allows users to register candidates along with their party names and candidate names.
+Voting Process: Enables voters to cast their votes by entering the code number of the party they wish to vote for.
+Result Calculation: Determines the winner of the election based on the votes cast.
+File Descriptions
+
+
+1. file1.cpp
+Purpose: Registers candidates participating in the election.
+Functions:
+candidateRegister: Registers candidates by prompting the user to input the party name and candidate name.
+writeData: Writes the registered candidates data to the data.txt file.
+validateCandidateInput: Validates the input for party and candidate names.
+
+
+2. file2.cpp
+Purpose: Conducts the election process, including voting and result calculation.
+Functions:
+vote: Allows voters to cast their votes.
+findMaxVotedParty: Finds the party with the maximum number of votes.
+validateCodeNumber: Validates the entered code number for voting.
+displayResult: Displays the winner of the election.
+
+
+3. data.txt
+Purpose: Stores data about registered candidates.
+Format: Each line contains the code number, party name, and candidate name separated by spaces.
+Usage
+
+
+Compile the source files using a C++ compiler.
+Run the executable generated after compilation.
+Follow the on-screen instructions to register candidates and conduct the election.
+View the election results displayed at the end of the process.
+Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on GitHub.
+
+Author
+Sayan Nandi
